@@ -10,7 +10,7 @@
     {
       "name": "browser-logger-diagnostics",
       "description": "Query and analyze browser console logs from local SQLite database. Diagnose JavaScript errors, exceptions, and console messages captured by the browser-logger extension in real-time.",
-      "source": "cfeign/browser-logger-plugin",
+      "source": "https://github.com/cfeign/browser-logger-plugin.git",
       "version": "1.0.0",
       "author": {
         "name": "Cory Feign",
