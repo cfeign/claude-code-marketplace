@@ -2,7 +2,8 @@
   "name": "coryfeign-plugins",
   "owner": {
     "name": "Cory Feign",
-    "email": "cory@coryfeign.com"
+    "email": "cory@coryfeign.com",
+    "url": "https://github.com/cfeign"
   },
   "metadata": {
     "description": "Claude Code plugins by Cory Feign",
@@ -12,13 +13,20 @@
     {
       "name": "browser-logger-diagnostics",
       "source": "./plugins/browser-logger-diagnostics",
-      "description": "Query and analyze browser console logs",
+      "description": "Query and analyze browser console logs from local SQLite database",
       "version": "1.0.0",
       "author": {
-        "name": "Cory Feign"
+        "name": "Cory Feign",
+        "url": "https://github.com/cfeign"
       },
+      "homepage": "https://github.com/cfeign/claude-code-marketplace",
+      "repository": "https://github.com/cfeign/claude-code-marketplace",
       "license": "MIT",
-      "category": "debugging"
+      "keywords": ["debugging", "browser", "console", "logs", "performance"],
+      "category": "debugging",
+      "strict": false,
+      "commands": [],
+      "agents": []
     }
   ]
 }
