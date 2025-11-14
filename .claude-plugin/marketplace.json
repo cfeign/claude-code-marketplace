@@ -25,8 +25,18 @@
       "keywords": ["debugging", "browser", "console", "logs", "performance"],
       "category": "debugging",
       "strict": false,
-      "commands": [],
-      "agents": []
+      "commands": [
+        "./commands/errors.md",
+        "./commands/failed.md",
+        "./commands/logs.md",
+        "./commands/network.md",
+        "./commands/recent.md",
+        "./commands/search.md",
+        "./commands/slow.md"
+      ],
+      "skills": [
+        "./skills/browser-logger-diagnostics"
+      ]
     }
   ]
 }
