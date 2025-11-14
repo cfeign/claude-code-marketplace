@@ -30,7 +30,9 @@
         "console-logs",
         "javascript-errors",
         "performance-monitoring"
-      ]
+      ],
+      "commands": ["./plugins/browser-logger-diagnostics/commands/"],
+      "skills": ["./plugins/browser-logger-diagnostics/skills/browser-logger-diagnostics"]
     }
   ]
 }
