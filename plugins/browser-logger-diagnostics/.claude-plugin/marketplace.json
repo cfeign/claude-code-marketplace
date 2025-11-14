@@ -1,0 +1,31 @@
+{
+  "name": "coryfeign-plugins",
+  "description": "Claude Code plugins by Cory Feign",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Cory Feign",
+    "url": "https://coryfeign.com"
+  },
+  "plugins": [
+    {
+      "name": "browser-logger-diagnostics",
+      "description": "Query and analyze browser console logs from local SQLite database. Diagnose JavaScript errors, exceptions, and console messages captured by the browser-logger extension in real-time.",
+      "source": "github:cfeign/browser-logger-plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cory Feign",
+        "url": "https://github.com/cfeign"
+      },
+      "homepage": "https://github.com/cfeign/browser-logger-plugin",
+      "repository": "https://github.com/cfeign/browser-logger-plugin",
+      "license": "MIT",
+      "keywords": [
+        "browser-logger",
+        "debugging",
+        "console-logs",
+        "javascript-errors"
+      ],
+      "tags": ["debugging", "development", "monitoring"]
+    }
+  ]
+}
