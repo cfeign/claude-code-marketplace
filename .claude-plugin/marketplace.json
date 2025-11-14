@@ -31,8 +31,18 @@
         "javascript-errors",
         "performance-monitoring"
       ],
-      "commands": ["./plugins/browser-logger-diagnostics/commands/"],
-      "skills": ["./plugins/browser-logger-diagnostics/skills/browser-logger-diagnostics"]
+      "commands": [
+        "./commands/errors.md",
+        "./commands/failed.md",
+        "./commands/logs.md",
+        "./commands/network.md",
+        "./commands/recent.md",
+        "./commands/search.md",
+        "./commands/slow.md"
+      ],
+      "skills": [
+        "./skills/browser-logger-diagnostics"
+      ]
     }
   ]
 }
