@@ -12,30 +12,31 @@
   "plugins": [
     {
       "name": "browser-logger-diagnostics",
-      "source": "./plugins/browser-logger-diagnostics",
+      "source": "github:cfeign/browser-logger",
       "description": "Query and analyze browser console logs from local SQLite database",
       "version": "1.0.0",
       "author": {
         "name": "Cory Feign",
         "url": "https://github.com/cfeign"
       },
-      "homepage": "https://github.com/cfeign/claude-code-marketplace",
-      "repository": "https://github.com/cfeign/claude-code-marketplace",
+      "homepage": "https://github.com/cfeign/browser-logger",
+      "repository": "https://github.com/cfeign/browser-logger",
       "license": "MIT",
       "keywords": ["debugging", "browser", "console", "logs", "performance"],
       "category": "debugging",
       "strict": false,
       "commands": [
-        "./commands/errors.md",
-        "./commands/failed.md",
-        "./commands/logs.md",
-        "./commands/network.md",
-        "./commands/recent.md",
-        "./commands/search.md",
-        "./commands/slow.md"
+        ".claude/commands/errors.md",
+        ".claude/commands/failed.md",
+        ".claude/commands/logs.md",
+        ".claude/commands/network.md",
+        ".claude/commands/recent.md",
+        ".claude/commands/search.md",
+        ".claude/commands/slow.md",
+        ".claude/commands/bl-c-10.md"
       ],
       "skills": [
-        "./skills/browser-logger-diagnostics"
+        ".claude/skills/browser-logger-diagnostics"
       ]
     }
   ]
